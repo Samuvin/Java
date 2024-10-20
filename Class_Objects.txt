@@ -1,0 +1,56 @@
+Class and Object
+
+Anything in the world is a object
+
+Object is referred in oops using its properties and behaviour
+		*Properties
+		*Behaviour
+Television - Object
+Property
+	Material used
+	led lcd 
+	brand name
+	current channel set
+	current volume
+	brightness 
+Behaviour (methods functions) -  Behavior will affect the properties
+	Increase the volume
+	check the present channel
+	change the channel 
+
+	Press the button change the volume
+
+Car - Object
+Property
+	fuel limit
+	color
+	engine model
+	speed
+Behaviours
+	Change speed 
+	brake
+	gear
+
+Everything in the world can be defined using properties and behaviour
+
+Take a object and write a summary
+	from there take noun and adjectives - properties
+	from there take verbs               - behaviours
+	Which ever you want take it leave others
+
+How to define a object
+	To create a object we need a definition
+	For example:
+		Television object needs its circuit blueprint 
+		Car Object needs its designe blueprint
+	Television is object - Design is a class
+	House is s object -    Design is a class
+	Real - Object
+	Reel - Class
+
+If we have one class we can make many objects are manufactured 
+
+In Main Memory
+  When we create a Object The reference variable for the object is created in the stack while the object is created in the heap
+  Objects are always created in main memory
+  Inside the main memory there will be a area called as method area ot will contain all the methods
