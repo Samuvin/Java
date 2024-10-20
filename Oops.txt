@@ -1,0 +1,64 @@
+Oops - Object Oriented Programming
+
+Principles
+*Abstraction
+*Encapsulation
+*Inheritance
+*Polymorphism 
+
+
+Abstraction:
+	Hiding the internal details and showing only the required features
+	Example:
+		Car
+			The driver just needs to know how to put brake and gear Not how its stopping the car when the brake is applied
+			(avoid showing internal details only show what is required)
+			Abstract
+Encapsulation
+	Everything is in a single capsule That for example television everything is encapsuled in a box that are necessary to run the television Its like a single box
+
+	Car is like a single body everything related to it are present inside that body
+
+	We encapsulate everything inside a box what are related to each other Boxing up
+Inheritance
+	Television making company is making a televison name Version 1 and they add some more features and release a new model Version 2
+	New model of the television is not a completely new one its just the television with the new features along with the old one
+
+	Reusing the Products that are already present in our hand and we are making the similar one and just we are adding some more features to it we just use the alraedy presented one and we use it
+	and we add a few extra things
+
+	Iphone 1 - Already Impleted 
+	Iphone 3 - Same features are there as of the Iphone 6 but with 
+			   some more extra features
+
+	Car 1 - First Version
+	Car 2 - Car1 + increase speed + increase engine performace
+
+	Inheritance - Reusing codes which are already present
+
+Polymorphism
+	*Specialiation 
+	*Generalization 
+
+Specialization
+	We already have some Product and if we are adding something to it and Comming up with the new thing  - Inheritance
+ 
+	Iphone 1 - Already Impleted 
+	Iphone 3 - Specialization of the Iphone 1
+
+	Benefits:
+		We borrow everything and put more feature
+
+Generalization
+	Lg samsung Song - can be generalized as television
+	Toyato Suzuki - can be generalizaed as Car
+
+	Benefits : 
+		Can refer a set of things together we can refer car for toyato suzuki etc
+		One thing is enough to refer to allthings
+		One message is enough to communicate with all others
+	Example :
+		we dont learn driving not toyato car driving suzuki car driving
+	if we learn how to drive we can drive any car that is generalized
+
+
