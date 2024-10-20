@@ -1,56 +1,65 @@
-Class and Object
+Class and Object in OOP
+	Understanding Objects
+	In the real world, anything can be considered an object.
+	In Object-Oriented Programming (OOP), an object is defined using its properties (attributes) and behaviors (methods or functions).
 
-Anything in the world is a object
+Properties: Characteristics of an object.
+Behaviors: Actions an object can perform or actions that affect the properties.
 
-Object is referred in oops using its properties and behaviour
-		*Properties
-		*Behaviour
-Television - Object
-Property
-	Material used
-	led lcd 
-	brand name
-	current channel set
-	current volume
-	brightness 
-Behaviour (methods functions) -  Behavior will affect the properties
+Example 1: 
+Television
+     Object: Television
+     Properties:
+	Material used (e.g., LED, LCD)
+	Brand name
+	Current channel set
+	Current volume
+	Brightness level
+     Behaviors (methods/functions):
 	Increase the volume
-	check the present channel
-	change the channel 
+	Check the current channel
+	Change the channel
+	Adjust brightness
+Note: The behavior affects the properties. For example, pressing a button to change the volume directly alters the volume property.
 
-	Press the button change the volume
+Example 2:
+Car
+	Object: Car
+	Properties:
+	   Fuel limit
+	   Color
+           Engine model
+	   Speed
+	Behaviors:
+	   Change speed
+	   Apply brakes
+	   Change gears
+Conclusion: Everything in the world can be defined using properties and behaviors. To identify these:
 
-Car - Object
-Property
-	fuel limit
-	color
-	engine model
-	speed
-Behaviours
-	Change speed 
-	brake
-	gear
+Nouns and adjectives in a description typically represent properties.
+Verbs usually represent behaviors.
 
-Everything in the world can be defined using properties and behaviour
+Defining an Object
+To create an object, a definition (blueprint) is required. This blueprint is called a class.
 
-Take a object and write a summary
-	from there take noun and adjectives - properties
-	from there take verbs               - behaviours
-	Which ever you want take it leave others
+Example:
 
-How to define a object
-	To create a object we need a definition
-	For example:
-		Television object needs its circuit blueprint 
-		Car Object needs its designe blueprint
-	Television is object - Design is a class
-	House is s object -    Design is a class
-	Real - Object
-	Reel - Class
+A Television object needs its circuit blueprint.
+A Car object needs its design blueprint.
+In summary:
 
-If we have one class we can make many objects are manufactured 
+	Real Object: The actual object (e.g., Television, Car, House).
+	Class (Design): The blueprint that defines the properties and behaviors of the object.
 
-In Main Memory
-  When we create a Object The reference variable for the object is created in the stack while the object is created in the heap
-  Objects are always created in main memory
-  Inside the main memory there will be a area called as method area ot will contain all the methods
+Example:
+Television is an object, and its design is the class.
+House is an object, and its architectural design is the class.
+
+Relationship Between Class and Object
+If we have a class, we can create many instances (objects) based on that class. For example, the class of a television design can be used to create multiple television objects.
+
+Memory Allocation
+When an object is created, it is stored in main memory (heap memory).
+The reference variable for the object is stored in the stack.
+The object itself is stored in the heap.
+there is an area called the method area in memory that contains all the methods related to the class.
