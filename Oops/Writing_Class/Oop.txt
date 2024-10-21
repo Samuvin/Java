@@ -1,0 +1,49 @@
+Object-Oriented Programming (OOP) Principles
+	OOP is based on four key principles: Abstraction, Encapsulation, Inheritance, and Polymorphism.
+
+1. Abstraction
+	Definition: Abstraction hides internal details and shows only the necessary features.
+Example:
+	Consider a car: The driver only needs to know how to apply the brakes and change the gears. The internal mechanism of how the car stops when the brake is applied is abstracted. Only the essential features are exposed to the driver, while the complex implementation details remain hidden.
+
+2. Encapsulation
+	Definition: Encapsulation involves grouping related properties and behaviors into a single entity or "capsule." It bundles everything necessary together.
+
+Example:
+	A television encapsulates all components and functionalities necessary for its operation in a single box.
+	Similarly, a car is a single body that encapsulates all parts and systems related to its operation.
+Concept: Encapsulation ensures that all the related components are boxed up together, promoting modularity and organization.
+
+3. Inheritance
+	Definition: Inheritance allows a class to reuse properties and methods of another class. It enables the creation of new models or versions based on existing ones by adding or modifying features.
+
+Example:
+	A television company releases a model called Version 1. Later, they release Version 2 with additional features while retaining the features of Version 1.
+
+Similarly, consider iPhone models:
+	iPhone 1: Initial version.
+	iPhone 3: Builds upon iPhone 1 with additional features.
+	Concept: Inheritance allows for reusing existing code and features, making it easier to extend functionalities without starting from scratch.
+
+4. Polymorphism
+	Polymorphism enables the same function to be used in different ways. It is further categorized into Specialization and Generalization.
+
+a. Specialization
+	Definition: Specialization involves adding new features to an existing product to create a new version. It is closely related to inheritance.
+
+Example:
+
+	iPhone models:
+	iPhone 1: Initial implementation.
+	iPhone 3: A specialization of iPhone 1, adding new features.
+	Benefit: We borrow existing functionalities and build upon them, adding new features.
+
+b. Generalization
+	Definition: Generalization involves grouping similar items under a single category or term.
+
+Example:
+	Televisions from LG, Samsung, and Sony can be generalized under the category "television."
+	Cars from Toyota and Suzuki can be generalized as "car."
+	Benefits:
+
+Generalization allows us to refer to a set of items together, simplifying communication and reducing complexity. For instance, learning to drive a car means you can drive any brand, not just a specific model like Toyota or Suzuki.
