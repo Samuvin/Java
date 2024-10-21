@@ -1,0 +1,11 @@
+Types of properties 
+
+*Read and Write  - we read and wrtie getter and setter
+*Read only       - can only read
+*Write only      - can only write
+
+*Students marks - we can read the students marks and update the students mark
+
+*students roll number 
+
+*producer consumer

@@ -1,0 +1,18 @@
+Constructors in Java
+Overview
+When creating an object, it is essential to initialize its data members at the time of creation rather than setting them later. This is achieved using constructors, which are special methods that are automatically called when an object of a class is instantiated.
+
+Key Characteristics
+
+Initialization: 
+    Constructors are used to initialize the properties of a class while the object is being constructed.
+Automatic Invocation: 
+    A constructor is automatically invoked when an object is created.
+Default Constructor: 
+    If no constructor is explicitly defined in a class, the Java compiler provides a default constructor that initializes data members to their default values.
+Naming Convention: 
+    The constructor must have the same name as the class it belongs to.
+No Return Type: 
+    Constructors do not have a return type, not even void.
+Accessibility: 
+    Constructors should generally be declared as public, allowing objects of the class to be created from outside the class.
