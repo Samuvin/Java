@@ -1,7 +1,7 @@
 import java.util.*;
 import java.util.stream.Collectors;
 
-public class ArrayListDemo 
+public class Array_List 
 {
     public static void main(String[] args) {
         // 1. Initialization

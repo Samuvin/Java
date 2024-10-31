@@ -1,9 +1,10 @@
 import java.util.*;
-import java.util.stream.*;
-
-class Hash_map 
+import java.util.function.Function;
+import java.util.stream.*; 
+public class Hash_map 
 {
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         // 1. Basic Creation and Initialization
         HashMap<String, Integer> map = new HashMap<>();
         HashMap<String, Integer> initialMap = new HashMap<>() {{
@@ -67,10 +68,11 @@ class Hash_map
             .max(Map.Entry.comparingByValue())
             .map(Map.Entry::getKey)
             .orElse(null);
+        System.out.println("Most Frequent Element: " + mostFrequent);
 
         // 9. Inverse Frequency Map
         HashMap<Integer, List<Integer>> inverseFreqMap = new HashMap<>();
-        freqMap.forEach((num, freq) -> 
+        freqMap.forEach((num, freq) ->
             inverseFreqMap.computeIfAbsent(freq, k -> new ArrayList<>()).add(num)
         );
 
@@ -79,7 +81,7 @@ class Hash_map
         class Person {
             String name;
             int age;
-            
+
             @Override
             public boolean equals(Object o) {
                 if (this == o) return true;
@@ -87,7 +89,7 @@ class Hash_map
                 Person person = (Person) o;
                 return age == person.age && Objects.equals(name, person.name);
             }
-            
+
             @Override
             public int hashCode() {
                 return Objects.hash(name, age);
@@ -103,36 +105,10 @@ class Hash_map
         Map<String, Long> wordCounts = words.stream()
             .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
 
-        // 13. Two Sum Problem Implementation
-        public int[] twoSum(int[] nums, int target) {
-            HashMap<Integer, Integer> complementMap = new HashMap<>();
-            for (int i = 0; i < nums.length; i++) {
-                int complement = target - nums[i];
-                if (complementMap.containsKey(complement)) {
-                    return new int[]{complementMap.get(complement), i};
-                }
-                complementMap.put(nums[i], i);
-            }
-            return new int[]{};
-        }
-
-        // 14. Anagram Grouping
-        public List<List<String>> groupAnagrams(String[] strs) {
-            HashMap<String, List<String>> anagramMap = new HashMap<>();
-            for (String s : strs) {
-                char[] chars = s.toCharArray();
-                Arrays.sort(chars);
-                String key = String.valueOf(chars);
-                anagramMap.computeIfAbsent(key, k -> new ArrayList<>()).add(s);
-            }
-            return new ArrayList<>(anagramMap.values());
-        }
-
-        // 15. Performance Optimization Techniques
-        // Preallocate size if known
+        // 13. Preallocate size if known
         HashMap<Integer, String> largeMap = new HashMap<>(1000000);
 
-        // 16. Thread-Safe Version
+        // 14. Thread-Safe Version
         Map<String, Integer> concurrentMap = Collections.synchronizedMap(new HashMap<>());
     }
 
@@ -141,7 +117,33 @@ class Hash_map
         // Complex calculation logic
         return key.length();
     }
+
+    // Two Sum Problem Implementation
+    public static int[] twoSum(int[] nums, int target) {
+        HashMap<Integer, Integer> complementMap = new HashMap<>();
+        for (int i = 0; i < nums.length; i++) {
+            int complement = target - nums[i];
+            if (complementMap.containsKey(complement)) {
+                return new int[]{complementMap.get(complement), i};
+            }
+            complementMap.put(nums[i], i);
+        }
+        return new int[]{};
+    }
+
+    // Anagram Grouping
+    public static List<List<String>> groupAnagrams(String[] strs) {
+        HashMap<String, List<String>> anagramMap = new HashMap<>();
+        for (String s : strs) {
+            char[] chars = s.toCharArray();
+            Arrays.sort(chars);
+            String key = String.valueOf(chars);
+            anagramMap.computeIfAbsent(key, k -> new ArrayList<>()).add(s);
+        }
+        return new ArrayList<>(anagramMap.values());
+    }
 }
+
 
 // Performance and Complexity Cheat Sheet
 /*

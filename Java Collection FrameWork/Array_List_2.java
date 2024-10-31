@@ -1,7 +1,7 @@
 import java.util.*;
 import java.util.stream.Collectors;
 
-public class CompetitiveArrayListDemo {
+public class Array_List_2 {
     public static void main(String[] args) {
         // 1. Initialization
         ArrayList<Integer> list = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10));

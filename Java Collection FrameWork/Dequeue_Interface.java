@@ -10,7 +10,7 @@ import java.util.Iterator;
 //Internally use Array and they are fast
 
 
-public class DequeExample {
+public class Dequeue_Interface {
     public static void main(String[] args) {
         // Initialize the ArrayDeque
         ArrayDeque<Integer> deque = new ArrayDeque<>();
