@@ -9,8 +9,6 @@ or by a specified comparator. The operations on a TreeSet,
 such as insertion, deletion, and access, have a time complexity of O(log n).
 */
 
-
-
 public class Tree_Set {
     public static void main(String[] args) {
         // Initialize a TreeSet with some elements
